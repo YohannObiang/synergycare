@@ -81,6 +81,12 @@ body{
 
 
 }
+.form-bg img{
+    margin-top: 4rem;
+}
 h1{
     margin-top: 2rem;
+}
+span{
+    margin: 10px;
 }

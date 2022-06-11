@@ -70,7 +70,7 @@ body{
     position: relative;
 }
 .form-bg{
-    height: 300px;
+    height: 400px;
     width: 800px;
     background: #ffff;
     border-radius: 15px;
@@ -85,7 +85,7 @@ h1{
     margin-top: 2rem;
 }
 p{
-    width: 75%;
-    margin-top: 4rem;
+    width: 340px;
+    margin-top: 2rem;
     text-align: justify;
 }

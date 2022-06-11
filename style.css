@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(-45deg, #c21d24,#c21d24, #e93f25, #e99425);
+    background-size: 300% 300%;
+    position: relative;
+    
+
+    animation: change 3s ease-in-out infinite;
+}
+@keyframes change{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    
+    100%{
+    
+        background-position: 0 50%;
+    }
+}
+.navbar{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar img{
+    height: 96px;
+    width: 180px;
+    margin-left: 67px;
+    margin-top: 5px;
+}
+.navbar a{
+    margin-right: 40px;
+    color: white;
+    text-decoration: none;
+}
+.menu{
+    display: flex;
+}
+
+.container{
+    height:85vh;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.left{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+    position: relative;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    border-radius: 20px;
+    color: #e93f25;
+}
+.form-bg{
+    height: 500px;
+    width: 400px;
+    background: #ffff;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 70px;
+
+}
+form{
+    height: 500px;
+    width: 400px;;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin-top: 15px;
+
+}
+input{
+    height: 35px;
+    border-radius: 20px;
+    border: 1px solid #e93f259c;
+    
+}
+button{
+   
+    height: 52px;
+    margin-top: 10px;
+    background: #5256AD;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    width: 170px;
+    background: linear-gradient(-45deg, #c21d5c, #e93f25,#c21d24, #e99425);
+    border-radius: 30px;
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+    margin-top: 30px;
+    border: 1px solid rgba(255,255,255,0.5);
+    
+}
+.users img{
+    width: 50px;
+    height: 50px;
+}
+.text{
+    height: 160px;
+    position: absolute;
+    top:10%;
+    width: 700px;
+
+}
+.text h1 {
+    font-size: 3rem;
+}
+.text p{
+    margin-top: 20px;
+}
+.hi-slide{
+    position: absolute;
+    top: 15%;
+}
+.download .img{
+    margin-top: 8px;
+    width: 200px;
+    height: 70px;
+    margin: 50px 10px 50px 10px
+}
+.download .img2{
+   
+    width: 200px;
+    height: 62px;
+    margin: 54px 10px 50px 10px
+}
+.download{
+    width: 600px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.container2{
+    color: white;
+    width: 100%;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
